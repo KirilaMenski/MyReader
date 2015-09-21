@@ -34,6 +34,7 @@ public class MyReader extends JFrame {
 	public static JMenuItem openFile, close;
 	public static JTextArea windowArea;
 	private JScrollPane windowScroll;
+	
 
 	public MyReader() {
 		panel = new JPanel();
@@ -50,6 +51,8 @@ public class MyReader extends JFrame {
 		addComponent();
 	}
 
+	
+	//Method for adding component
 	public void addComponent() {
 
 		menuBar = new JMenuBar();
